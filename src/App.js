@@ -4,7 +4,7 @@ import {
   Building2, Shield, Info, X, ChevronRight, ArrowLeft, ArrowUpRight, MapPin, Phone, Mail,
   Wrench, PhoneCall, Bot, FolderOpen, PenLine, ClipboardList, Receipt, UserCog,
   LifeBuoy, Users, FileText, Lock, Hourglass,
-  Siren, Ambulance, FireExtinguisher, BadgeAlert, Stethoscope, Droplets, Zap, Flame, Lightbulb, Landmark, ShieldAlert, CloudRain,
+  Siren, Stethoscope, Droplets, Zap, Flame, Lightbulb, Landmark, ShieldAlert, CloudRain,
   Megaphone, TriangleAlert,
 } from "lucide-react";
 
@@ -31,11 +31,7 @@ const SEGNALAZIONI_URL = "https://studio-cai-messenger.vercel.app/";
 // ─────────────────────────────────────────────────────────────
 const EMERGENZE_PRINCIPALI = [
   { id: "112", nome: "Numero unico emergenze", dettaglio: "Carabinieri, Polizia, Vigili del fuoco, ambulanza", numero: "112", icona: Siren },
-  { id: "118", nome: "Emergenza sanitaria", dettaglio: "Ambulanza e soccorso medico", numero: "118", icona: Ambulance },
-  { id: "113", nome: "Polizia di Stato", dettaglio: "Soccorso pubblico", numero: "113", icona: BadgeAlert },
-  { id: "115", nome: "Vigili del fuoco", dettaglio: "Incendi, crolli, soccorso tecnico", numero: "115", icona: FireExtinguisher },
 ];
-const NOTA_EMERGENZE = "Nel Lazio 113, 115 e 118 funzionano ancora, ma risponde la centrale unica del 112. Per i Carabinieri chiama il 112.";
 
 const SEZIONI_NUMERI = [
   {
@@ -520,7 +516,7 @@ function PaginaNumeriUtili({ onIndietro }) {
       {/* Emergenze */}
       <section className="mt-6">
         <TitoloSezione titolo="Emergenze" nota="Pericolo immediato per persone o cose." />
-        <div className="grid grid-cols-2 gap-3">
+        <div className="grid grid-cols-1 gap-3">
           {EMERGENZE_PRINCIPALI.map((v) => {
             const Icona = v.icona;
             return (
@@ -539,7 +535,6 @@ function PaginaNumeriUtili({ onIndietro }) {
             );
           })}
         </div>
-        <p className="mt-3 px-1 text-xs text-neutral-500 leading-relaxed">{NOTA_EMERGENZE}</p>
       </section>
 
       {/* Il tuo condominio */}

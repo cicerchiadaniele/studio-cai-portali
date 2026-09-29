@@ -3,7 +3,7 @@
 ## v2.2 – 29/09/2026
 
 - Numeri utili attivo: pagina interna (`?servizio=numeri-utili`, si apre nella stessa scheda) con numeri da toccare per chiamare.
-  - Emergenze in evidenza: 112 (anche Carabinieri), 118, 113 Polizia di Stato, 115 Vigili del fuoco, con la nota che nel Lazio risponde sempre la centrale unica del 112.
+  - Emergenze: solo il 112, numero unico per Carabinieri, Polizia, Vigili del fuoco e ambulanza, in evidenza su tutta la riga.
   - Il tuo condominio: telefono ed email dello studio, pulsante "Guasto nelle parti comuni?" che apre Segnalazioni; rimando all'avviso "Numeri utili" affisso nel palazzo per le ditte del singolo condominio.
   - Salute e sicurezza: guardia medica 116 117, Guardia di Finanza 117.
   - Guasti ad acqua, luce e gas (24 ore su 24, gratuiti): guasti acqua e fognature Acea 800 130 335, guasti energia elettrica Acea (rete Areti) 800 130 336, illuminazione pubblica Acea 800 006 677, pronto intervento gas Italgas 800 900 999 (odore di gas, fughe, tubazioni o contatore danneggiati), con avviso di sicurezza per l'odore di gas.
