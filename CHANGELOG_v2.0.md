@@ -1,5 +1,9 @@
 # Changelog – Portale servizi online
 
+## v2.1 – 29/09/2026
+
+- Assistente virtuale attivo: il pulsante apre https://studio-cai-chatbot.vercel.app/ (accesso con codice via email, riservato ai condòmini registrati).
+
 ## v2.0 – 26/09/2026
 
 Riscrittura completa in React con la grafica delle webapp Studio CAI (allineamento del 23/09/2026).

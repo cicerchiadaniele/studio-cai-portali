@@ -9,8 +9,8 @@ import {
 // ─────────────────────────────────────────────────────────────
 // Costanti di versione (v2.0)
 // ─────────────────────────────────────────────────────────────
-const APP_VERSION = "2.0";
-const BUILD_DATE_LABEL = "26/09/2026"; // Data fissa della release
+const APP_VERSION = "2.1";
+const BUILD_DATE_LABEL = "29/09/2026"; // Data fissa della release
 const BRAND = "Studio CAI";
 const LOGO_URL = "/logo.jpg";
 
@@ -49,9 +49,9 @@ const CATEGORIE = [
       {
         id: "assistente",
         titolo: "Assistente virtuale",
-        descrizione: "Domande su convocazioni, bilanci e riparti del tuo condominio, a qualsiasi ora.",
+        descrizione: "Domande su convocazioni, bilanci, riparti e delibere del tuo condominio, a qualsiasi ora.",
         icona: Bot,
-        presto: true,
+        url: "https://studio-cai-chatbot.vercel.app/",
       },
     ],
   },
