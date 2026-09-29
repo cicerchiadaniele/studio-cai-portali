@@ -1,5 +1,18 @@
 # Changelog – Portale servizi online
 
+## v2.2 – 29/09/2026
+
+- Numeri utili attivo: pagina interna (`?servizio=numeri-utili`, si apre nella stessa scheda) con numeri da toccare per chiamare.
+  - Emergenze in evidenza: 112 (anche Carabinieri), 118, 113 Polizia di Stato, 115 Vigili del fuoco, con la nota che nel Lazio risponde sempre la centrale unica del 112.
+  - Il tuo condominio: telefono ed email dello studio, pulsante "Guasto nelle parti comuni?" che apre Segnalazioni; rimando all'avviso "Numeri utili" affisso nel palazzo per le ditte del singolo condominio.
+  - Salute e sicurezza: guardia medica 116 117, Guardia di Finanza 117.
+  - Guasti ad acqua, luce e gas (24 ore su 24, gratuiti): guasti acqua e fognature Acea 800 130 335, guasti energia elettrica Acea (rete Areti) 800 130 336, illuminazione pubblica Acea 800 006 677, pronto intervento gas Italgas 800 900 999 (odore di gas, fughe, tubazioni o contatore danneggiati), con avviso di sicurezza per l'odore di gas.
+  - Roma Capitale e Regione Lazio: Chiamaroma 06 0606, Polizia Locale Roma Capitale 06 67691, Protezione Civile Lazio 803 555.
+- Numeri utili: nella scheda dello studio gli orari di ricevimento; riquadro "Non sai chi chiamare?" che apre l'assistente virtuale; ogni numero ha l'etichetta "Chiama …" per i lettori di schermo.
+- Home: Assistente virtuale in evidenza in cima ("Inizia da qui"), con la nuova descrizione (documenti, rate e saldi, assemblee e deleghe, guasti e numeri utili); la categoria Assistenza ora contiene Segnalazioni e Numeri utili.
+- Descrizione della pagina (anteprima nei motori di ricerca e nei messaggi) aggiornata con assistente virtuale e numeri utili.
+- Pannello "Come funziona" aggiornato (non ci sono più servizi "In arrivo"; la pagina "in allestimento" resta nel codice per usi futuri).
+
 ## v2.1 – 29/09/2026
 
 - Assistente virtuale attivo: il pulsante apre https://studio-cai-chatbot.vercel.app/ (accesso con codice via email, riservato ai condòmini registrati).

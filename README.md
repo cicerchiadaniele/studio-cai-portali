@@ -2,15 +2,15 @@
 
 Pagina unica che raccoglie tutti i servizi online dello studio per i condòmini. Sostituisce il vecchio aggregatore in HTML semplice (PortaleServizi 1.0, febbraio 2025).
 
-Versione 2.0 del 26/09/2026 (vedi `CHANGELOG_v2.0.md`).
+Versione 2.2 del 29/09/2026 (vedi `CHANGELOG_v2.0.md`).
 
 ## Servizi e categorie
 
 | Categoria | Servizio | Indirizzo |
 |---|---|---|
 | Assistenza | Segnalazioni guasti e interventi | https://studio-cai-messenger.vercel.app/ |
-| Assistenza | Numeri utili | in arrivo – `?servizio=numeri-utili` |
-| Assistenza | Assistente virtuale | in arrivo – `?servizio=assistente` |
+| Assistenza | Numeri utili | pagina interna – `?servizio=numeri-utili` |
+| In evidenza (in cima) | Assistente virtuale | https://studio-cai-chatbot.vercel.app/ |
 | Assemblee e documenti | Portale condominiale | https://studiocai2.cedhousesuite.it/index.php |
 | Assemblee e documenti | Delega online per l'assemblea | https://studio-cai-deleghe.vercel.app |
 | Moduli e dichiarazioni | Anagrafe condominiale | https://studio-cai-anagrafe.vercel.app/ |
@@ -20,6 +20,8 @@ Versione 2.0 del 26/09/2026 (vedi `CHANGELOG_v2.0.md`).
 Ogni servizio attivo si apre in una nuova scheda. I servizi "In arrivo" aprono la pagina interna "Servizio in allestimento" con i recapiti dello studio e il pulsante per tornare ai servizi (nessun deploy separato: la vecchia app "In costruzione" non serve più).
 
 ## Modifiche frequenti (tutte in `src/App.js`)
+
+- **Numeri utili**: emergenze principali in `EMERGENZE_PRINCIPALI`, le altre sezioni in `SEZIONI_NUMERI` (per ogni voce `numero` da comporre senza spazi e `mostra` come deve leggersi). Numeri verificati sui siti ufficiali il 29/09/2026.
 
 - **Attivare un servizio in arrivo**: nell'elenco `CATEGORIE` togliere `presto: true` e aggiungere `url: "https://..."`. Per l'assistente virtuale l'indirizzo sarà `https://studio-cai-chatbot.vercel.app`.
 - **Aggiungere un servizio**: copiare un blocco `{ id, titolo, descrizione, icona, url }` nella categoria giusta (icone da lucide-react).
