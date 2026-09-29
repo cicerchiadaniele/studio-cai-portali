@@ -1,5 +1,9 @@
 # Changelog – Portale servizi online
 
+## v2.3 – 29/09/2026
+
+- L'assistente virtuale si chiama Claudio: titolo del riquadro in cima, invito nella pagina iniziale e riquadro "Non sai chi chiamare?" in Numeri utili.
+
 ## v2.2 – 29/09/2026
 
 - Numeri utili attivo: pagina interna (`?servizio=numeri-utili`, si apre nella stessa scheda) con numeri da toccare per chiamare.

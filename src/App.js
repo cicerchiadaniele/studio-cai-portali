@@ -11,7 +11,7 @@ import {
 // ─────────────────────────────────────────────────────────────
 // Costanti di versione
 // ─────────────────────────────────────────────────────────────
-const APP_VERSION = "2.2";
+const APP_VERSION = "2.3";
 const BUILD_DATE_LABEL = "29/09/2026"; // Data fissa della release
 const BRAND = "Studio CAI";
 const LOGO_URL = "/logo.jpg";
@@ -144,7 +144,7 @@ const CATEGORIE = [
 // Assistente virtuale: in evidenza in cima alla pagina
 const ASSISTENTE = {
   id: "assistente",
-  titolo: "Assistente virtuale",
+  titolo: "Claudio, l'assistente virtuale",
   descrizione: "Chiedi qualsiasi cosa sul tuo condominio: documenti, rate e saldi, assemblee e deleghe, guasti e numeri utili. Ti risponde subito e ti porta al servizio giusto, a qualsiasi ora.",
   icona: Bot,
   url: "https://studio-cai-chatbot.vercel.app/",
@@ -268,7 +268,7 @@ export default function App() {
                     Di cosa hai <em className="not-italic text-brand">bisogno</em>?
                   </h2>
                   <p className="mt-4 text-neutral-600 text-base sm:text-lg">
-                    Tutti i servizi online dello studio per i condòmini, in un unico posto. Se non sai da dove partire, chiedi all'assistente virtuale.
+                    Tutti i servizi online dello studio per i condòmini, in un unico posto. Se non sai da dove partire, chiedi a Claudio, l'assistente virtuale.
                   </p>
                 </motion.div>
               </section>
@@ -586,7 +586,7 @@ function PaginaNumeriUtili({ onIndietro }) {
               <Bot className="w-[18px] h-[18px]" />
             </div>
             <p className="flex-1 min-w-0 text-sm text-neutral-700 leading-snug">
-              <span className="font-semibold text-neutral-900">Non sai chi chiamare?</span> Chiedi all'assistente virtuale: ti indica il numero giusto e lo chiami con un tocco.
+              <span className="font-semibold text-neutral-900">Non sai chi chiamare?</span> Chiedi a Claudio, l'assistente virtuale: ti indica il numero giusto e lo chiami con un tocco.
             </p>
             <ArrowUpRight className="flex-shrink-0 w-4 h-4 text-brand/60 group-hover:text-brand" />
           </a>
